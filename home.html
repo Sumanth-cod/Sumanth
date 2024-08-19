@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Profile Page of Sanjay">
+        <title>Sumanth's Profile</title>
+        <link rel="icon" href="myapp/icons/icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+
+
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="display2 (2).webp" alt="Sumanth's Logo">
+                </a><h1>Sumanth's Profile</h1>
+                <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+            <div class="nav-menu">           
+            <!--<a href="index.html">Home</a>
+                <a href="contact.html">Contact Me</a> -->
+                <a href="myapp/icons/sumanthresume-page-0.png" class="resume-button" download>Download Resume</a>
+                <div id="dark-mode-toggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <img src="display2 (2).webp" alt="Sanjay pic">
+            <h1>Hello, I am Sumanth, a <span class="about-me"></span></h1>
+            <p>Hello! I'm Sumanth Komirisetty   with a keen eye for detail and a love for creating  websites that are both functional and visually appealing. 
+
+                My journey into Full stack Web development began when  I built my first website in 2nd year of btech, and from that moment on, I knew this was the path for me. Since then, I've continuously sought to expand my knowledge and stay updated with the latest trends and technologies.
+                
+                I believe in the power of collaboration and am always excited to work with others .
+                
+                Feel free to check out my portfolio and reach out if you'd like to connect or collaborate.</p>
+        </header>
+
+        <div class="content-container">
+
+            <section>
+                <h2>My Technical Skills</h2>
+                <div class="skills-list">
+                    <ul class="skills-list">
+                        <li>Web Development</li>
+                        <li>Python</li>
+                        <li>Data Science</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="horizontal-scroll">
+                <div class="icon-container">
+                    <img src="myapp/icons/1.png" alt="Icon 1">
+                    <img src="myapp/icons/2.png" alt="Icon 2">
+                    <img src="myapp/icons/3.png" alt="Icon 3">
+                    <img src="myapp/icons/4.png" alt="Icon 4">
+                    <img src="icons/5.png" alt="Icon 1">
+                    <img src="icons/2.png" alt="Icon 2">
+                    <img src="icons/3.png" alt="Icon 3">
+                    <img src="icons/5.png" alt="Icon 4">
+                </div>
+            </section>
+            <hr>
+
+            <section id="programming-languages">
+                <h2>Programming Languages</h2>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress-bar" data-progress="30"></div>
+                </div>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress-bar" data-progress="80"></div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress-bar" data-progress="40"></div>
+                </div>
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="progress-bar" data-progress="70"></div>
+                </div>
+            </section>
+            <hr>    
+
+            <section>
+                <h2>My Projects</h2>
+                <p>Take a look at some of my works.</p>
+                <section id="projects">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="myapp/icons/3 copy.png" alt="Project 1">
+                            <h3>Video Testimonial App</h3>
+                            <p>Capture genuine moments and let your story be told with ease</p>
+                            <a href="https://sumanthsvideotestimonial.onrender.com" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="myapp/icons/3 copy.png" alt="Project 1">
+                            <h3>Video Testimonial App</h3>
+                            <p>Capture genuine moments and let your story be told with ease</p>
+                            <a href="https://sumanthsvideotestimonial.onrender.com" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="myapp/icons/3 copy.png" alt="Project 1">
+                            <h3>Video Testimonial App</h3>
+                            <p>Capture genuine moments and let your story be told with ease</p>
+                            <a href="https://sumanthsvideotestimonial.onrender.com" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                        </div>
+                    </div>                    
+            
+                    <!-- Repeat the above structure for each project -->
+                </section>
+                <!--<p><a href="6_project.html">Project 1</a> | <a href="https://www.pantechsolutions.net/deep-learning-based-food-calorie-estimation-method-in-dietary-assessment">Project 2</a></p>-->
+            </section>
+            <hr>
+            
+            <section>
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                    </div>
+            
+                    <button type="submit">Send Message</button>                
+                </form>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Contact Information</h2>
+                <p>Let's connect!</p>
+                <a href="mailto:sanjay@pantechmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/sanjaykumar-ap/" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a><br><br><br>   
+            </section>
+
+
+        </div>
+        <footer>
+            <p>&copy; 2024 portfolio. Built by Sumanth.</p>
+        </footer>
+
+
+        
