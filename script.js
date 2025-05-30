@@ -13,14 +13,13 @@ function changeAboutMeText()
     function type() 
     {
         const currentText = aboutMeTexts[textIndex];
-        /* Typing */
         if (!isDeleting && charIndex < currentText.length) 
         {
             aboutMeElement.textContent += currentText[charIndex];
             charIndex++;
             setTimeout(type, typingSpeed);
         }
-        /* Erasing */
+    
         else if (isDeleting && charIndex > 0) {
             aboutMeElement.textContent = currentText.substring(0, charIndex - 1);
             charIndex--;
